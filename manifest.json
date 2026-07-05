@@ -1,16 +1,49 @@
-[
-    {
-        "id": 1,
-        "data": "Genesis Block",
-        "prev_hash": "0",
-        "expected_hash": "0"
+{
+  "engine_version": "5.0.0-World-Broadcast",
+  "broadcast_origin": "NORTH_AMERICA_TX_CLEBURNE",
+  "pipeline_timestamp": "2026-06-23T23:01:51Z",
+  "nodes": {
+    "CLEBURNE_CORE": {
+      "node_id": "CLEBURNE_CORE",
+      "integrity_seal": "bd916c18a2968949bd9f88b2b201c6d660f26288ab349ca39c177dc6af3ede589f6f05f8c545da6ff71dc8834dbd99fb04ac4a607fab316967009e75da806473",
+      "metadata": {
+        "logged_timestamp": "2026-06-22 18:55:00",
+        "status": "ACTIVE",
+        "UPLINK": "active",
+        "LOAD": "0.42",
+        "INTEGRITY": "100%"
+      }
     },
-    {
-        "id": 2,
-        "type": "NO ONE LEFT BEHIND",
-        "data": "Your Rule",
-        "prev_hash": "0",
-        "pub_key": "7c0679a7c3c14d3e0ef107c31a1579ce12727c46a0fbed75a3bc48c1b45b35439610f53b7c9c3ef72fe8f4a443230587844f4cec2d710888cfda2b76dd80ab3d",
-        "signature": "a815d86d617d2832e244d800172116a8a995ba77f1e3e85a917284d9e1d1a5bd18bb2dab7c16e44034458bfc8a0b5d1c4579b3624eb89e9e673b0858bf76ebaa"
+    "CLEBURNE_EDGE_01": {
+      "node_id": "CLEBURNE_EDGE_01",
+      "integrity_seal": "d5bd407a72156b73d14bb27e371d2a2cce3da168bc65c09effa95b5c90404f30802cdae3834f44c16b0c05496d619be98a5770044ac9bf9149241b265b94bb2e",
+      "metadata": {
+        "logged_timestamp": "2026-06-22 18:56:12",
+        "status": "ACTIVE",
+        "PACKET_DROP": "1.2%",
+        "STORAGE": "89%",
+        "AUTH": "synchronized"
+      }
+    },
+    "FED_MONITOR_GLOBAL": {
+      "node_id": "FED_MONITOR_GLOBAL",
+      "integrity_seal": "cc11166b4e0973cf7f2e81d6c4dcfd1f8ff6708b93a721e61e8fe1f0e7d88eeb0035d5b3e69f49c919697cb029ebd1fa2a806f1e05531e820fa686223276a5f5",
+      "metadata": {
+        "logged_timestamp": "2026-06-22 19:01:05",
+        "status": "ACTIVE",
+        "SYNC": "true",
+        "PEER_COUNT": "5"
+      }
+    },
+    "CLEBURNE_HIGH_STRESS": {
+      "node_id": "CLEBURNE_HIGH_STRESS",
+      "integrity_seal": "6e96bc6c719d7ac9346012950809a880fed51dbebcbb218078d79ba55e6c6582f71de3190a158dc672cfa626a3b420ee8310d1d750acd92eee6322d3c35d682a",
+      "metadata": {
+        "logged_timestamp": "2026-06-23 00:20:00",
+        "status": "ACTIVE",
+        "PACKET_DROP": "4.5%",
+        "LOAD": "0.91"
+      }
     }
-]
+  }
+}
