@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"metadata": { "source_ledger_hash": "f8cdc8bbdc51e71ced15416869e914d2740ed33d626a888bdaeb7923b1d83586703266556bba36e6bb4741e763f4b8dd9366077ee9ced0939e6896d4a709fe32", "target": "Abstract 544" },
+"name": "abstract_544_true_bounds",
+"features": [
+{ "type": "Feature", "properties": { "survey_name": "Silas Elbert Bandy", "abstract": "544", "county": "Johnson" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -97.281200480773421, 32.406037301566087 ], [ -97.27827839223869, 32.4035 ], [ -97.2841, 32.4035 ], [ -97.2841, 32.403633878480015 ], [ -97.281200480773421, 32.406037301566087 ] ] ] } }
+]
+}

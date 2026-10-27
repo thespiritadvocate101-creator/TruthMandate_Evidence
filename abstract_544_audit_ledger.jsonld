@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Abstract 544 - Silas Elbert Bandy Survey Forensic Record",
+  "description": "Cryptographically authenticated spatial audit record and clipped parcel boundary for Abstract 544, Johnson County, Texas.",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "32.4035 -97.2841 32.4060 -97.2782"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Johnson County",
+      "addressRegion": "TX",
+      "addressCountry": "US"
+    }
+  },
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "application/geo+json",
+    "contentUrl": "final_clipped_abstract_544.geojson",
+    "sha512": "cd72c7a133966d0a65d4bb94d2f2845ef0fb83e1bf2f34d1a5ad691717abeeb0fa7a89480bfb773a292b1619acc2514d4cc183079ceb477e1d06835d8f913215"
+  },
+  "auditMetadata": {
+    "generator": "CivicAdvocate.OS Spatial Pipeline",
+    "timestamp": "2026-10-27T21:53:27Z",
+    "fileSizeBytes": "636",
+    "coordinateReferenceSystem": "EPSG:4326"
+  }
+}
