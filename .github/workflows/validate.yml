@@ -18,5 +18,8 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Validate Audit Ledger
+      - name: Run JSON Structure & Schema Validation
         run: python scripts/validate_ledger.py
+
+      - name: Run Spatial & Cadastral Integrity Check
+        run: python scripts/validate_spatial.py
