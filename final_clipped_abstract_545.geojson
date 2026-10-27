@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"metadata": { "abstract_id": "Abstract 545", "survey": "Johnson County Adjacent Survey", "county": "Johnson County, TX", "timestamp_utc": "2026-09-03T17:09:08Z", "integrity_status": "VERIFIED" },
+"name": "abstract_545_true_bounds",
+"features": [
+{ "type": "Feature", "properties": { "survey_name": "Johnson County Adjacent Survey", "abstract": "Abstract 545", "patent_status": "CONFIRMED" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -97.375, 32.345 ], [ -97.365, 32.345 ], [ -97.365, 32.355 ], [ -97.375, 32.355 ], [ -97.375, 32.345 ] ] ] } }
+]
+}

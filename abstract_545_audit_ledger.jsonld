@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Abstract 545 - Johnson County Adjacent Survey Forensic Record",
+  "description": "Cryptographically authenticated spatial audit ledger and volumetric reconciliation record for Abstract 545, Johnson County, Texas.",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "32.3450 -97.3750 32.3550 -97.3650"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Johnson County",
+      "addressRegion": "TX",
+      "addressCountry": "US"
+    }
+  },
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "application/geo+json",
+    "contentUrl": "final_clipped_abstract_545.geojson",
+    "sha512": "1cfdbd76139635aa9ecc7f636fb1f887d35d8b08eedc8fb8237d8b04b4035f999695a8b62cd3f59aded97b75737b0d69e6d01e905573780ffe0ecd7d4a26b181"
+  },
+  "auditMetadata": {
+    "generator": "CivicAdvocate.OS Spatial Pipeline",
+    "timestamp": "2026-10-27T22:12:29Z",
+    "fileSizeBytes": "591",
+    "coordinateReferenceSystem": "EPSG:4326"
+  }
+}
