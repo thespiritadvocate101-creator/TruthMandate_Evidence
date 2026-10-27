@@ -3,8 +3,34 @@
   "abstract": "Abstract 544",
   "location": "Johnson County, Texas",
   "purpose": "Forensic audit of mineral extraction discrepancies and cadastral boundaries.",
-  "masterStateRoot": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "generatedAt": "2026-10-27T04:07:00Z",
-  "totalRecordsExported": 0,
-  "records": []
+  "masterStateRoot": "e89bb4116de1d0ae6cd82549de5fba616f70d96dcbf544a428f9a8bce2521d0c",
+  "generatedAt": "2026-10-27T09:13:10.575467Z",
+  "totalRecordsExported": 3,
+  "records": [
+    {
+      "recordId": "ABS544-001",
+      "category": "Cadastral Boundary / Acreage Discrepancy",
+      "surveyor": "Original Patent Survey",
+      "recordedAcreage": 160.0,
+      "gisCalculatedAcreage": 154.25,
+      "discrepancyDelta": -5.75,
+      "timestamp": "2026-10-27T04:12:00Z"
+    },
+    {
+      "recordId": "ABS544-002",
+      "category": "Metes-and-Bounds Closure Error",
+      "callVector": "N 45\u00b0 E 1200vrs to corner stake",
+      "closureErrorRatio": "1:1250",
+      "status": "Flagged for Verification",
+      "timestamp": "2026-10-27T04:12:00Z"
+    },
+    {
+      "recordId": "ABS544-003",
+      "category": "Mineral Extraction / Production Severance",
+      "leaseIdentifier": "TX-JOH-544-MIN",
+      "reportedExtractionVolume": "Withheld / Unreported",
+      "auditStatus": "Discrepancy Logged",
+      "timestamp": "2026-10-27T04:12:00Z"
+    }
+  ]
 }
